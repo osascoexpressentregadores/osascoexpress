@@ -1,228 +1,184 @@
 CONTINUIDADE DO PROJETO — SITE OSASCO EXPRESS
-Versão de referência: V5.4 — Final com Sheets, Área Comercial e Memória Embutida
-Data de referência: 2026-05-01
+VERSÃO FINAL ORGANIZADA: V6.4
+DATA DE REFERÊNCIA: 01/05/2026
 
-========================================
-1. ESSÊNCIA DO PROJETO
-========================================
+============================================================
+1. ONDE PARAMOS
+============================================================
 
-A Osasco Express não deve ser posicionada como empresa comum de motoboy, nem apenas como delivery para restaurante.
+Paramos com o site na versão V6.4, baseada na V6.3 Lapidação Cirúrgica.
 
-A posição correta é:
+Esta versão é a base mais segura para subir e testar no domínio, porque:
+- não leva CNAME no pacote;
+- não força HTTPS por JavaScript;
+- não usa Content-Security-Policy agressiva;
+- mantém sitemap e robots em HTTPS;
+- preserva a integração com Google Sheets;
+- mantém os formulários de cliente e entregador;
+- mantém o WhatsApp como continuidade opcional;
+- mantém área comercial;
+- mantém app, animações, referências e seção de entregadores.
 
-A Osasco Express organiza operações de entrega para negócios, empresas e instituições que precisam de rotina, prazo, responsabilidade e recorrência.
+O foco agora não é reinventar o site. O foco é:
+1. subir a versão final;
+2. testar cliente;
+3. testar entregador;
+4. validar planilha;
+5. depois ajustar SSL/HTTPS pelo GitHub Pages;
+6. depois instalar Analytics/GTM/Search Console.
 
-Restaurantes, pizzarias e hamburguerias são uma vertical importante, mas NÃO são o centro absoluto da marca.
+============================================================
+2. ESSÊNCIA DO POSICIONAMENTO
+============================================================
 
-Tudo que pode virar contrato, rota, mensalidade, assinatura, turno ou recorrência merece espaço real.
+A Osasco Express não deve ser posicionada apenas como motoboy, nem apenas como delivery para restaurante.
 
-Verticais importantes:
-- restaurantes;
-- pizzarias;
-- hamburguerias;
-- pastelarias;
+Posicionamento correto:
+
+A Osasco Express organiza operações de entrega para negócios, empresas e instituições que precisam de prazo, rotina, responsabilidade e previsibilidade.
+
+Restaurantes, pizzarias e hamburguerias são uma vertical importante, mas não são o centro absoluto da marca.
+
+O site também fala com:
 - lojas;
 - comércio local;
 - e-commerce;
-- sellers / marketplace;
+- sellers;
+- marketplace;
 - Mercado Livre;
 - Shopee;
 - contabilidades;
 - escritórios;
 - bancos;
 - órgãos públicos;
-- instituições;
 - empresas;
-- rotas corporativas;
+- operações recorrentes;
 - entregadores parceiros.
 
-Regra de ouro:
-Tudo que pode virar contrato merece espaço.
+Regra do projeto:
+Tudo que pode virar contrato, recorrência, rota, turno, assinatura ou mensalidade merece espaço.
 
-========================================
-2. FRASES-GUIA
-========================================
+============================================================
+3. FRASES-GUIA
+============================================================
 
-Frase-mãe:
-A Osasco Express organiza operações de entrega para negócios que precisam de rotina, prazo, responsabilidade e recorrência.
+Frase principal:
+Entregas recorrentes com prazo, rotina e responsabilidade.
+
+Frase institucional:
+A Osasco Express organiza entregas para restaurantes, lojas, e-commerces, escritórios, contabilidades, bancos, órgãos públicos e empresas que precisam cumprir prazos sem transformar logística em preocupação diária.
+
+Frase comercial:
+O cliente certo não procura apenas preço. Ele procura menos problema, mais controle, rotina, prazo e responsabilidade.
 
 Frase interna:
-O cliente bom não compra corrida. Compra tranquilidade operacional.
+O cliente não compra apenas entregador. Compra uma etapa da operação funcionando melhor.
 
-Outra frase importante:
-Não vendemos corrida solta. Vendemos operação funcionando.
-
-Nunca voltar para:
-- comunicação focada só em restaurante;
+Evitar:
+- “contrato bom”;
+- “corrida solta”;
 - “motoboy barato”;
-- corrida avulsa como centro do site;
-- preço seco antes de entender a operação;
-- formulário que só abre WhatsApp sem registrar dados.
+- “tabela genérica” como centro;
+- linguagem agressiva ou pequena;
+- foco exclusivo em restaurante.
 
-========================================
-3. LINGUAGEM DA MARCA
-========================================
+============================================================
+4. ESTRUTURA ATUAL DO SITE
+============================================================
 
-A linguagem deve ser sempre:
-- humana;
-- clara;
-- direta;
-- profissional;
-- sem tom robótico;
-- sem arrogância;
-- sem parecer barato;
-- com energia de negócio real;
-- técnica quando necessário, mas fácil de entender.
+A versão final contém:
 
-A marca precisa soar como uma empresa que entende o dia a dia de quem vende, envia documentos, faz coletas, atende clientes, roda rotas e precisa cumprir prazo.
+1. Hero principal
+- posicionamento amplo;
+- CTA para análise;
+- visual com mapa e motos;
+- prova de operação local.
 
-========================================
-4. GATILHOS PREMIUM DEFINIDOS
-========================================
+2. Provas comerciais
+- +300 mil entregas realizadas;
+- 4 anos de atuação local;
+- modelos sob medida;
+- app com rastreamento, despacho, relatórios e escala inteligente.
 
-Os gatilhos para vender para quem tem dinheiro para investir são:
+3. Navegação rápida
+- restaurantes;
+- marketplace/e-commerce;
+- empresas;
+- entregadores.
 
-1. Proteção patrimonial
-A entrega protege reputação, prazo, cliente, documento, venda e equipe.
+4. Serviços
+- restaurantes e food service;
+- marketplace e e-commerce;
+- comércio local;
+- empresas e escritórios.
 
-2. Custo invisível
-A corrida barata pode gerar atraso, reclamação, retrabalho e perda de confiança.
+5. App operacional
+- rota inteligente;
+- despacho automático;
+- relatórios operacionais;
+- rastreamento em tempo real;
+- escala inteligente;
+- mais processo para crescer.
 
-3. Previsibilidade
-Empresas com demanda recorrente não podem depender de sorte.
+6. Referências públicas
+- @pasteldacamilla;
+- @pizzaria.bevenutti_;
+- @cantinadolcevida;
+- @artistasnacidade.
 
-4. Alívio da gestão
-O cliente quer menos problema, não mais uma coisa para gerenciar.
+7. Entregadores parceiros
+- linguagem forte de oportunidade;
+- cadastro;
+- app;
+- escala digital;
+- WhatsApp opcional para agilizar.
 
-5. Status operacional
-A Osasco Express não vende “chamar motoboy”; vende operação compatível com empresas sérias.
+8. Caminho comercial
+- análise;
+- modelo;
+- proposta;
+- recorrência.
 
-6. Análise da operação
-Antes de falar em valor, a operação precisa ser entendida.
+9. CTA final
+- formulário de análise primeiro;
+- WhatsApp como continuidade opcional.
 
-7. Responsabilidade
-Documento, malote, contrato, pedido, rota e entrega institucional não combinam com improviso.
+10. Área comercial
+- comercial.html;
+- login: admin;
+- senha: 2026;
+- acesso à planilha operacional;
+- consulta de cadastros.
 
-8. Recorrência
-A primeira entrega mostra capacidade. A recorrência mostra estrutura.
+============================================================
+5. FORMULÁRIOS E PLANILHA
+============================================================
 
-========================================
-5. ESTRUTURA ATUAL DO SITE
-========================================
-
-O site contém:
-- hero amplo;
-- cards por tipo de operação;
-- proteção operacional;
-- custo invisível;
-- quando vale contratar operação recorrente;
-- diferença entre corrida solta e operação estruturada;
-- mapa de atuação;
-- avaliações Google via Elfsight;
-- formulário multi-step de clientes;
-- cadastro de entregadores;
-- CTA final;
-- área comercial interna em comercial.html;
-- integração com Google Sheets;
-- botão flutuante WhatsApp no desktop;
-- bottom bar no mobile.
-
-O hero não deve voltar para “Seu restaurante...”.
-O topo precisa falar com negócios, empresas e instituições.
-
-Mensagem do topo:
-Entregas recorrentes para negócios que não podem depender de improviso.
-
-========================================
-6. GOOGLE SHEETS E APPS SCRIPT
-========================================
-
-Planilha oficial de captação:
+Planilha oficial:
 https://docs.google.com/spreadsheets/d/1sW9TSOeWODXXz9iYAxFbKnX5ryYVS9Y1If9ptR3P4QE/edit?usp=sharing
 
-Web App / Apps Script oficial:
+Apps Script/Web App:
 https://script.google.com/macros/s/AKfycby1f0lm7VcHIy0TbmNkNWaON1DtPOmXnERP4Nlif5o8JA2IY4_abUnX2BgPMxA5UxNT/exec
 
-A planilha deve ter duas abas principais:
+Abas obrigatórias:
 - Clientes
 - Entregadores
 
-Nunca misturar clientes e entregadores na mesma aba.
+Regra:
+Clientes e entregadores nunca devem cair na mesma aba.
 
-Fluxo de clientes:
-Pessoa acessa o site
-→ preenche análise da operação
-→ site salva na aba Clientes
-→ site libera WhatsApp com mensagem organizada
-→ comercial recebe contexto
-→ equipe responde com análise inicial
-→ proposta consultiva
-→ fechamento ou follow-up
+Fluxo do cliente:
+site → formulário de análise → Google Sheets/Clientes → tela de confirmação → WhatsApp opcional → comercial.
 
-Fluxo de entregadores:
-Entregador acessa o site
-→ abre cadastro
-→ preenche dados
-→ site salva na aba Entregadores
-→ libera WhatsApp para agilizar triagem
-→ equipe confere perfil
-→ orienta app, escala e próximos passos
+Fluxo do entregador:
+site → cadastro de entregador → Google Sheets/Entregadores → WhatsApp opcional → triagem.
 
-========================================
-7. CAMPOS DO FORMULÁRIO DE CLIENTES
-========================================
+O WhatsApp não é mais a primeira captura.
+A captura principal é o formulário integrado ao Sheets.
 
-O formulário de clientes coleta:
-- nome;
-- WhatsApp;
-- e-mail;
-- nome do negócio ou instituição;
-- tipo de operação;
-- volume aproximado;
-- período crítico;
-- modelo atual;
-- problema principal;
-- bairro/cidade;
-- frequência desejada;
-- observações;
-- origem;
-- página;
-- dispositivo;
-- UTMs;
-- temperatura do cadastro;
-- mensagem WhatsApp.
-
-A aba Clientes recebe os dados.
-
-========================================
-8. CAMPOS DO FORMULÁRIO DE ENTREGADORES
-========================================
-
-O cadastro de entregadores coleta:
-- nome;
-- WhatsApp;
-- e-mail;
-- cidade/bairro;
-- possui moto;
-- possui CNH;
-- possui bag;
-- dias disponíveis;
-- horários disponíveis;
-- experiência;
-- app baixado;
-- escala acessada;
-- observações;
-- status;
-- origem;
-- página;
-- dispositivo;
-- UTMs.
-
-A aba Entregadores recebe os dados.
-
-========================================
-9. WHATSAPPS USADOS
-========================================
+============================================================
+6. WHATSAPP E CONTATOS
+============================================================
 
 Comercial:
 5511970334125
@@ -233,198 +189,218 @@ SAC:
 Entregadores:
 5511924782555
 
-Antes de alterar qualquer número publicamente, confirmar com o usuário.
+Regra:
+Não alterar número publicamente sem confirmar antes.
 
-========================================
-10. ÁREA COMERCIAL
-========================================
+============================================================
+7. O QUE FOI FEITO NAS ÚLTIMAS VERSÕES
+============================================================
 
-A área comercial fica em:
-comercial.html
+V5.2
+- reposicionamento amplo;
+- correção do excesso de foco em restaurante.
 
-Login:
-admin
-2026
+V5.3
+- integração com Google Sheets;
+- clientes em uma aba;
+- entregadores em outra aba.
 
-A área comercial deve ter acesso visível à planilha oficial de captação:
-https://docs.google.com/spreadsheets/d/1sW9TSOeWODXXz9iYAxFbKnX5ryYVS9Y1If9ptR3P4QE/edit?usp=sharing
+V5.4
+- arquivo de continuidade;
+- planilha dentro da área comercial.
 
-Ela deve apoiar o time a vender:
-- operação;
-- recorrência;
-- rota;
-- turno;
-- mensalidade;
-- contrato;
-- responsabilidade;
-- previsibilidade.
+V5.5
+- popup ajustado;
+- WhatsApp flutuante sem conflito;
+- convite automático após 40 segundos;
+- mobile mais limpo.
 
-A área comercial não é CRM completo. É apoio interno e consulta rápida.
+V5.6
+- referências de Instagram;
+- @pasteldacamilla;
+- @pizzaria.bevenutti_;
+- @cantinadolcevida;
+- @artistasnacidade.
 
-========================================
-11. TESTES OBRIGATÓRIOS APÓS SUBIR
-========================================
+V5.7
+- motion design;
+- motos no mapa;
+- microinterações.
 
-Teste cliente:
-1. abrir o site em guia anônima;
-2. preencher o formulário de análise;
-3. verificar se caiu na aba Clientes;
-4. verificar se a mensagem do WhatsApp abriu correta;
-5. conferir temperatura, página, dispositivo e UTM.
+V5.8
+- linguagem premium;
+- remoção de termos pequenos;
+- correção de Instagram da Bevenutti.
 
-Teste entregador:
-1. abrir cadastro de entregador;
-2. preencher dados;
-3. verificar se caiu na aba Entregadores;
-4. verificar se WhatsApp abriu com mensagem organizada.
+V5.9
+- tentativa de reforço SSL/HTTPS;
+- causou risco de erro por CNAME/CSP/redirect.
 
-Teste visual:
-- celular;
-- notebook;
-- desktop;
-- menu;
+V6.0
+- recuperação estável;
+- remoção de CNAME, CSP agressivo e redirect forçado.
+
+V6.1
+- primeira dobra melhorada;
+- app operacional adicionado;
+- lead primeiro, WhatsApp opcional depois.
+
+V6.2
+- cards comerciais melhorados;
+- seção de entregadores com linguagem mais forte;
+- animação de “fazer dinheiro em Osasco”.
+
+V6.3
+- lapidação cirúrgica;
+- responsivo melhorado;
+- copy mais profissional;
+- preservação dos formulários.
+
+V6.4
+- documentação atualizada;
+- comentários adicionados no código;
+- pacote final organizado.
+
+============================================================
+8. EXPECTATIVA DA VERSÃO FINAL
+============================================================
+
+A expectativa da V6.4 é:
+
+1. abrir estável no GitHub Pages;
+2. carregar bem em desktop e mobile;
+3. apresentar a Osasco Express como operação séria;
+4. capturar cliente antes do WhatsApp;
+5. captar entregador separado;
+6. salvar dados na planilha oficial;
+7. permitir consulta pela área comercial;
+8. reforçar app como diferencial;
+9. dar base para tráfego, SEO e comercial;
+10. evitar retrocesso de posicionamento.
+
+A versão final não promete resolver o SSL sozinha.
+O SSL deve ser configurado no GitHub Pages.
+
+============================================================
+9. TESTES OBRIGATÓRIOS APÓS SUBIR
+============================================================
+
+Teste 1 — abertura
+- abrir domínio no desktop;
+- abrir domínio no celular;
+- abrir em aba anônima.
+
+Teste 2 — formulário cliente
+- clicar em CTA;
+- preencher análise;
+- confirmar se caiu na aba Clientes;
+- confirmar tela final;
+- confirmar WhatsApp opcional.
+
+Teste 3 — formulário entregador
+- abrir seção entregadores;
+- fazer cadastro;
+- confirmar se caiu na aba Entregadores;
+- confirmar WhatsApp opcional.
+
+Teste 4 — área comercial
+- abrir /comercial.html;
+- entrar com admin / 2026;
+- conferir botão da planilha;
+- abrir planilha.
+
+Teste 5 — visual
 - hero;
-- avaliações;
-- formulário;
 - mapa;
-- rodapé;
-- área comercial.
+- serviços;
+- app;
+- referências;
+- entregadores;
+- CTA final;
+- rodapé.
 
-========================================
-12. PRÓXIMAS ETAPAS FUTURAS
-========================================
+Teste 6 — mobile
+- menu;
+- botões;
+- formulário;
+- modal;
+- bottom bar;
+- sem popup invasivo.
+
+============================================================
+10. HTTPS / SITE SEGURO
+============================================================
+
+A versão final NÃO leva CNAME para não quebrar o site.
+
+Para resolver “Não seguro”:
+1. subir a versão final;
+2. confirmar que o site abre;
+3. ir em GitHub → Settings → Pages;
+4. confirmar domínio customizado;
+5. aguardar o certificado;
+6. ativar Enforce HTTPS.
+
+Não colocar CSP agressivo.
+Não forçar redirect por JavaScript antes do certificado estar pronto.
+
+============================================================
+11. PRÓXIMOS PASSOS
+============================================================
 
 Depois de subir e testar:
-1. instalar Google Tag Manager;
-2. instalar Google Analytics 4;
-3. instalar Search Console;
-4. configurar eventos de conversão;
-5. criar páginas internas SEO por vertical;
-6. criar rotina de follow-up comercial;
-7. criar relatórios de origem dos cadastros;
-8. medir quais segmentos mais geram conversa boa.
 
-Eventos futuros importantes:
-- click_whatsapp_comercial;
-- click_whatsapp_entregador;
-- submit_cliente_sheets;
-- submit_entregador_sheets;
-- click_google_reviews;
-- open_modal_analise;
-- open_entregador_modal.
+1. corrigir apenas bugs reais;
+2. ativar HTTPS corretamente;
+3. instalar Google Search Console;
+4. instalar Google Analytics 4;
+5. instalar Google Tag Manager;
+6. configurar eventos:
+   - submit_cliente_sheets;
+   - submit_entregador_sheets;
+   - click_whatsapp_comercial;
+   - click_whatsapp_entregador;
+   - click_app_android;
+   - click_escala_digital;
+   - click_referencia_instagram;
+7. criar páginas internas SEO:
+   - entregas para restaurantes em Osasco;
+   - entregas para e-commerce em Osasco;
+   - motoboy para empresas em Osasco;
+   - entrega de documentos em Osasco;
+   - rota empresarial em Osasco;
+   - entregador parceiro Osasco Express.
+8. criar rotina comercial de follow-up.
 
-========================================
-13. REGRA FINAL PARA NÃO RETROCEDER
-========================================
+============================================================
+12. REGRA FINAL
+============================================================
+
+Não retroceder.
+
+O site não é catálogo simples.
+O site é uma entrada comercial e operacional.
+
+A lógica deve permanecer:
+
+visitante → formulário → planilha → tela de confirmação → WhatsApp opcional → comercial → proposta → recorrência.
 
 A Osasco Express não vende apenas entrega.
 Ela organiza a etapa que muitos negócios só percebem quando dá problema.
 
-Nunca reduzir o projeto a uma única vertical.
-Nunca voltar para linguagem fria, genérica ou barata.
-Nunca perder a separação entre Clientes e Entregadores.
-Nunca depender apenas do WhatsApp.
-Sempre preservar a lógica:
-site → planilha → WhatsApp → atendimento → proposta → follow-up.
+
+V6.5 — SEO ÉTICO E PALAVRAS-CHAVE SEMÂNTICAS
+- Atualizados title, description e meta keywords para auditoria.
+- Adicionado bloco visível de buscas relacionadas sem esconder texto.
+- Adicionado JSON-LD de LocalBusiness, Service, OfferCatalog e FAQPage.
+- Incluídas palavras-chave curtas e cauda longa do nicho:
+  motoboy em Osasco, empresa de entregas em Osasco, motoboy para restaurante, motoboy para pizzaria, motoboy para hamburgueria, entrega para delivery, terceirização de entregas, logística urbana, rota empresarial, entrega de documentos, motoboy para contabilidade, entrega para e-commerce, entrega para marketplace, entrega Mercado Livre, entrega Shopee, motoboy por assinatura, entregador por turno, rota programada, entrega expressa, motofrete e variações por bairros de Osasco.
+- Regra: não fazer keyword stuffing, não esconder texto, não repetir artificialmente.
 
 
-========================================
-14. AJUSTE V5.5 — POPUP, WHATSAPP E MOBILE
-========================================
-
-Foi corrigido o conflito visual entre o convite/popup e o botão flutuante do WhatsApp.
-
-Regra atual:
-- Desktop: botão flutuante do WhatsApp fica no canto inferior direito.
-- Desktop: convite/análise aparece no canto inferior esquerdo, não em cima do WhatsApp.
-- Convite automático aparece apenas após 40 segundos de permanência no site.
-- Mobile: convite automático e WhatsApp flutuante ficam ocultos; a navegação usa bottom bar fixa.
-- Modal tem botão de fechar mais claro e cabeçalho fixo.
-
-Essa regra deve ser preservada em próximas versões.
-
-
-========================================
-15. AJUSTE V5.6 — REFERÊNCIAS SUTIS
-========================================
-
-Foi adicionada uma seção discreta de referências públicas no Instagram:
-- @pasteldacamilla
-- @pizzariabevenutti
-- @cantinadolcevida
-- @artistasnacidade
-
-Objetivo:
-Mostrar presença real, relacionamento e ecossistema local sem parecer ostentação ou propaganda forçada.
-
-Regra:
-As referências devem ser sutis, abrir em nova guia e não tomar o lugar da proposta principal do site.
-
-
-========================================
-16. AJUSTE V5.7 — MOTION DESIGN
-========================================
-
-Foi feita uma evolução visual sem alterar a lógica do projeto:
-- animações sutis e coerentes;
-- hero com mais presença;
-- mini mapa com sensação de operação viva;
-- motos em movimento na área visual;
-- route line animada;
-- pins com pulsação sutil;
-- cartões e botões com microinterações;
-- cuidado com responsividade e redução de movimento.
-
-Regra:
-A animação deve valorizar a percepção premium e a ideia de operação em movimento, sem poluir a experiência.
-
-
-========================================
-17. AJUSTE V5.8 — LINGUAGEM PREMIUM
-========================================
-
-Foi ajustada a linguagem pública para evitar termos agressivos ou pequenos, como “contrato bom” e “corrida solta”.
-
-Direção correta:
-- falar de operação recorrente;
-- consistência;
-- responsabilidade;
-- previsibilidade;
-- rotina de entrega;
-- nível de responsabilidade do cliente;
-- entrega improvisada como problema, sem baixar o nível da marca.
-
-Também foi corrigido o Instagram da Pizzaria Bevenutti:
-https://www.instagram.com/pizzaria.bevenutti_/
-
-Regra:
-A comunicação deve soar empresarial, segura e premium, nunca pobre, agressiva ou pequena.
-
-
-========================================
-18. AJUSTE V5.9 — COPY SÊNIOR E HTTPS
-========================================
-
-Foi feita uma revisão ampla de copy para elevar o tom do site:
-- menos linguagem agressiva;
-- menos termos pequenos;
-- mais clareza empresarial;
-- mais foco em rotina, prazo, responsabilidade, previsibilidade e operação.
-
-Termos que devem ser evitados na comunicação pública:
-- contrato bom;
-- corrida solta;
-- motoboy barato;
-- tabela genérica como centro da conversa;
-- qualquer frase que reduza a Osasco Express a serviço pequeno.
-
-Também foram adicionados reforços de segurança/HTTPS:
-- arquivo CNAME com www.osascoexpress.com.br;
-- canonical em HTTPS;
-- sitemap e robots usando HTTPS;
-- CSP com upgrade-insecure-requests;
-- redirecionamento de HTTP para HTTPS no domínio oficial;
-- arquivo SEGURANCA_SSL_HTTPS.txt com instruções.
-
-Atenção:
-O cadeado definitivo depende de ativar Enforce HTTPS no GitHub Pages.
+V6.6 — CENTRAL OSASCO EXPRESS
+- Criada seção robusta de conhecimento, não apenas FAQ.
+- Conteúdo sobre a Osasco Express, operação, crescimento, restaurantes, lojas, e-commerce, empresas, documentos, entregadores, app e tecnologia.
+- Respostas úteis com potencial de SEO e valor real para quem lê.
+- Adicionado FAQPage JSON-LD com perguntas visíveis na página.
+- CTA final da central leva para análise rápida, mantendo captura no Sheets primeiro e WhatsApp opcional depois.

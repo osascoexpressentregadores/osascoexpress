@@ -1,42 +1,6 @@
-OSASCO EXPRESS — V5.3 INTEGRADO AO GOOGLE SHEETS
+OSASCO EXPRESS — V6.4 FINAL ESTÁVEL
 
-Planilha destino:
-https://docs.google.com/spreadsheets/d/1sW9TSOeWODXXz9iYAxFbKnX5ryYVS9Y1If9ptR3P4QE/edit
-
-Web App usado:
-https://script.google.com/macros/s/AKfycby1f0lm7VcHIy0TbmNkNWaON1DtPOmXnERP4Nlif5o8JA2IY4_abUnX2BgPMxA5UxNT/exec
-
-O que esta versão faz:
-- Formulário de clientes salva na aba Clientes.
-- Cadastro de entregadores salva na aba Entregadores.
-- Depois de salvar, abre WhatsApp com mensagem organizada.
-- Se o Sheets falhar, o WhatsApp continua funcionando.
-- Captura origem, página, dispositivo e UTMs.
-- Classifica temperatura do cadastro de cliente.
-- Mantém Elfsight, SEO, formulário multi-step, área comercial e visual da V5.2.
-- Inclui botão flutuante de WhatsApp no desktop.
-- Mantém bottom bar no mobile.
-
-Suba na raiz:
-index.html
-comercial.html
-robots.txt
-sitemap.xml
-README.txt
-
-Teste:
-1. Suba o site.
-2. Abra em guia anônima.
-3. Preencha o formulário de cliente.
-4. Veja se caiu na aba Clientes.
-5. Abra cadastro de entregador e teste.
-6. Veja se caiu na aba Entregadores.
-
-
-
-OSASCO EXPRESS — V5.4 FINAL COM MEMÓRIA E ÁREA COMERCIAL
-
-Esta versão inclui:
+ARQUIVOS DO PACOTE:
 - index.html
 - comercial.html
 - robots.txt
@@ -44,50 +8,58 @@ Esta versão inclui:
 - README.txt
 - CONTINUIDADE_PROJETO_OSASCO_EXPRESS.txt
 
-Planilha oficial:
-https://docs.google.com/spreadsheets/d/1sW9TSOeWODXXz9iYAxFbKnX5ryYVS9Y1If9ptR3P4QE/edit?usp=sharing
+O QUE ESTA VERSÃO ENTREGA:
+- Site comercial completo.
+- Primeira dobra lapidada.
+- Serviços por tipo de operação.
+- Benefícios do app.
+- Referências públicas.
+- Cadastro de clientes com Google Sheets.
+- Cadastro de entregadores com Google Sheets.
+- WhatsApp opcional após captura.
+- Área comercial interna.
+- Documento de continuidade atualizado.
+- Comentários no código para manutenção futura.
 
-Apps Script:
-https://script.google.com/macros/s/AKfycby1f0lm7VcHIy0TbmNkNWaON1DtPOmXnERP4Nlif5o8JA2IY4_abUnX2BgPMxA5UxNT/exec
+IMPORTANTE:
+Não subir CNAME nesta versão.
+Não adicionar redirecionamento HTTPS manual.
+Não adicionar CSP agressivo.
+Primeiro garantir que o site abre.
 
-Área comercial:
-comercial.html
+ÁREA COMERCIAL:
+Arquivo: comercial.html
 Login: admin
 Senha: 2026
 
-Importante:
-A planilha fica disponível para consulta dentro da área comercial.
+PLANILHA:
+https://docs.google.com/spreadsheets/d/1sW9TSOeWODXXz9iYAxFbKnX5ryYVS9Y1If9ptR3P4QE/edit?usp=sharing
+
+TESTE OBRIGATÓRIO:
+1. Preencher formulário de cliente.
+2. Conferir aba Clientes.
+3. Preencher cadastro de entregador.
+4. Conferir aba Entregadores.
+5. Abrir área comercial.
+6. Testar no celular.
+
+HTTPS:
+O cadeado deve ser ativado pelo GitHub Pages:
+Settings → Pages → Enforce HTTPS
 
 
-V5.5 — AJUSTE UX POPUP E MOBILE
-- Toast/convite reposicionado para não ficar em cima do WhatsApp flutuante.
-- Convite automático aparece somente após 40 segundos no site.
-- No mobile, o convite automático e WhatsApp flutuante ficam ocultos para não poluir a tela.
-- Modal com botão de fechar mais claro e cabeçalho fixo.
-- Mantida integração Google Sheets, área comercial e arquivo de continuidade.
+V6.5 — SEO ÉTICO E PALAVRAS-CHAVE SEMÂNTICAS
+- Atualizados title, description e meta keywords para auditoria.
+- Adicionado bloco visível de buscas relacionadas sem esconder texto.
+- Adicionado JSON-LD de LocalBusiness, Service, OfferCatalog e FAQPage.
+- Incluídas palavras-chave curtas e cauda longa do nicho:
+  motoboy em Osasco, empresa de entregas em Osasco, motoboy para restaurante, motoboy para pizzaria, motoboy para hamburgueria, entrega para delivery, terceirização de entregas, logística urbana, rota empresarial, entrega de documentos, motoboy para contabilidade, entrega para e-commerce, entrega para marketplace, entrega Mercado Livre, entrega Shopee, motoboy por assinatura, entregador por turno, rota programada, entrega expressa, motofrete e variações por bairros de Osasco.
+- Regra: não fazer keyword stuffing, não esconder texto, não repetir artificialmente.
 
 
-V5.6 — REFERÊNCIAS SUTIS
-- Incluída seção de referências públicas com links para Instagram.
-- Links abrem em nova guia.
-- Mantida proposta principal do site, sem poluir a navegação.
-
-
-V5.7 — MOTION DESIGN
-- Evolução visual com animações sutis, hero mais forte e mini mapa com motos em movimento.
-- Sem alterar a lógica comercial, formulários, Sheets ou área comercial.
-
-
-V5.8 — LINGUAGEM PREMIUM
-- Ajustada linguagem pública para tom mais empresarial e premium.
-- Removidas expressões como “contrato bom” e “corrida solta” da comunicação principal.
-- Corrigido link Instagram da Pizzaria Bevenutti para @pizzaria.bevenutti_.
-
-
-V5.9 — COPY SÊNIOR + HTTPS
-- Revisão geral de textos públicos e internos.
-- Ajuste de linguagem para tom mais empresarial, humano e premium.
-- Adicionado CNAME para www.osascoexpress.com.br.
-- Adicionado SEGURANCA_SSL_HTTPS.txt.
-- Sitemap, robots, canonical e política de upgrade para HTTPS.
-- Para o cadeado aparecer, ativar Enforce HTTPS no GitHub Pages.
+V6.6 — CENTRAL OSASCO EXPRESS
+- Criada seção robusta de conhecimento, não apenas FAQ.
+- Conteúdo sobre a Osasco Express, operação, crescimento, restaurantes, lojas, e-commerce, empresas, documentos, entregadores, app e tecnologia.
+- Respostas úteis com potencial de SEO e valor real para quem lê.
+- Adicionado FAQPage JSON-LD com perguntas visíveis na página.
+- CTA final da central leva para análise rápida, mantendo captura no Sheets primeiro e WhatsApp opcional depois.
