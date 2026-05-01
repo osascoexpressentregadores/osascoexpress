@@ -626,6 +626,253 @@ button[disabled]{opacity:.55;cursor:not-allowed;transform:none!important}
   .clientRefGrid{grid-template-columns:1fr}
 }
 
+
+/* === V5.7 — Motion design senior e responsivo === */
+:root{
+  --ease-premium:cubic-bezier(.22,.61,.36,1);
+}
+html{
+  scroll-behavior:smooth;
+}
+body::before{
+  content:"";
+  position:fixed;
+  inset:-20% -10% auto auto;
+  width:36rem;
+  height:36rem;
+  border-radius:999px;
+  background:radial-gradient(circle, rgba(234,29,44,.10), rgba(255,138,0,.06) 38%, transparent 68%);
+  pointer-events:none;
+  filter:blur(10px);
+  z-index:0;
+  animation:heroAura 10s ease-in-out infinite alternate;
+}
+@keyframes heroAura{
+  from{transform:translate3d(0,0,0) scale(1)}
+  to{transform:translate3d(-24px,12px,0) scale(1.08)}
+}
+.reveal{
+  transform:translateY(18px);
+  opacity:0;
+  transition:transform .7s var(--ease-premium), opacity .7s var(--ease-premium);
+}
+.reveal.visible{
+  transform:none;
+  opacity:1;
+}
+.nav{
+  backdrop-filter:blur(12px);
+  background:rgba(255,255,255,.88)!important;
+}
+.nav a,.btn,.quickCard,.proofCard,.panelItem,.clientRefCard,.operationCard,.protectCard,.worthCard,.revenueStep{
+  transition:transform .28s var(--ease-premium), box-shadow .28s var(--ease-premium), border-color .28s var(--ease-premium), background .28s var(--ease-premium);
+}
+.nav a:hover{
+  transform:translateY(-1px);
+}
+.btn{
+  position:relative;
+  overflow:hidden;
+}
+.btn::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(120deg, transparent 25%, rgba(255,255,255,.18) 50%, transparent 75%);
+  transform:translateX(-120%);
+  transition:transform .7s ease;
+}
+.btn:hover::after{
+  transform:translateX(120%);
+}
+.hero .lead{
+  max-width:52rem;
+}
+.hero .heroText h1{
+  animation:titleEnter .95s var(--ease-premium) both;
+}
+.hero .lead, .hero .sectionNote, .hero .matrixIntro{
+  animation:fadeRise .9s var(--ease-premium) both;
+}
+.hero .lead{animation-delay:.08s}
+.hero .sectionNote{animation-delay:.16s}
+.hero .matrixIntro{animation-delay:.24s}
+@keyframes titleEnter{
+  from{opacity:0;transform:translateY(20px) scale(.985)}
+  to{opacity:1;transform:none}
+}
+@keyframes fadeRise{
+  from{opacity:0;transform:translateY(16px)}
+  to{opacity:1;transform:none}
+}
+.hero aside{
+  animation:cardDrift 7s ease-in-out infinite;
+  position:relative;
+}
+@keyframes cardDrift{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-8px)}
+}
+.hero aside::before{
+  content:"";
+  position:absolute;
+  inset:-1px;
+  border-radius:34px;
+  padding:1px;
+  background:linear-gradient(135deg, rgba(234,29,44,.46), rgba(255,138,0,.36), rgba(255,255,255,.16));
+  -webkit-mask:linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite:xor;
+  mask-composite:exclude;
+  pointer-events:none;
+}
+.miniMap{
+  position:relative;
+  overflow:hidden;
+  isolation:isolate;
+  background:
+    radial-gradient(circle at 20% 22%, rgba(255,255,255,.08), transparent 22%),
+    radial-gradient(circle at 78% 75%, rgba(255,255,255,.08), transparent 26%),
+    linear-gradient(180deg,#131B32,#101726);
+}
+.miniMap::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(90deg, transparent 0%, rgba(255,255,255,.07) 18%, transparent 36%);
+  transform:translateX(-120%);
+  animation:mapSweep 4.5s linear infinite;
+  pointer-events:none;
+}
+@keyframes mapSweep{
+  to{transform:translateX(150%)}
+}
+.routeLine path{
+  stroke-dashoffset:0;
+  animation:routeDash 12s linear infinite;
+}
+@keyframes routeDash{
+  to{stroke-dashoffset:-160}
+}
+.pin{
+  animation:pinPulse 3.5s ease-in-out infinite;
+}
+.pin:nth-of-type(2){animation-delay:.25s}
+.pin:nth-of-type(3){animation-delay:.5s}
+.pin:nth-of-type(4){animation-delay:.75s}
+.pin:nth-of-type(5){animation-delay:1s}
+.pin:nth-of-type(6){animation-delay:1.25s}
+@keyframes pinPulse{
+  0%,100%{transform:translateY(0) scale(1)}
+  50%{transform:translateY(-2px) scale(1.03)}
+}
+.pin i{
+  box-shadow:0 0 0 0 rgba(234,29,44,.45);
+  animation:pinRing 2.8s ease-out infinite;
+}
+@keyframes pinRing{
+  0%{box-shadow:0 0 0 0 rgba(234,29,44,.48)}
+  80%{box-shadow:0 0 0 12px rgba(234,29,44,0)}
+  100%{box-shadow:0 0 0 0 rgba(234,29,44,0)}
+}
+.motoRide{
+  position:absolute;
+  width:34px;
+  height:34px;
+  display:grid;
+  place-items:center;
+  z-index:2;
+  filter:drop-shadow(0 8px 18px rgba(0,0,0,.28));
+}
+.motoRide .bubble{
+  width:34px;
+  height:34px;
+  border-radius:999px;
+  background:linear-gradient(135deg,#ffffff,#f4f6fb);
+  border:1px solid rgba(255,255,255,.8);
+  display:grid;
+  place-items:center;
+  box-shadow:0 10px 22px rgba(0,0,0,.18);
+}
+.motoRide svg{
+  width:18px;
+  height:18px;
+  color:#EA1D2C;
+}
+.motoRide.ride1{
+  animation:motoPath1 9s linear infinite;
+}
+.motoRide.ride2{
+  animation:motoPath2 11s linear infinite;
+  animation-delay:-3s;
+}
+@keyframes motoPath1{
+  0%{left:12%; top:24%; transform:rotate(-8deg)}
+  18%{left:27%; top:14%; transform:rotate(8deg)}
+  36%{left:46%; top:19%; transform:rotate(-3deg)}
+  56%{left:67%; top:18%; transform:rotate(18deg)}
+  74%{left:78%; top:40%; transform:rotate(135deg)}
+  88%{left:54%; top:58%; transform:rotate(190deg)}
+  100%{left:18%; top:50%; transform:rotate(220deg)}
+}
+@keyframes motoPath2{
+  0%{left:82%; top:43%; transform:rotate(150deg)}
+  20%{left:62%; top:56%; transform:rotate(195deg)}
+  40%{left:42%; top:61%; transform:rotate(180deg)}
+  58%{left:21%; top:55%; transform:rotate(225deg)}
+  74%{left:14%; top:34%; transform:rotate(300deg)}
+  100%{left:49%; top:18%; transform:rotate(8deg)}
+}
+.proofCard:hover,.quickCard:hover,.panelItem:hover,.clientRefCard:hover,.operationCard:hover,.protectCard:hover,.worthCard:hover,.revenueStep:hover{
+  transform:translateY(-5px);
+  box-shadow:0 20px 44px rgba(11,16,32,.11);
+}
+.proofCard b{
+  display:inline-block;
+  animation:numberFloat 5.6s ease-in-out infinite;
+}
+.proofCard:nth-child(2) b{animation-delay:.35s}
+.proofCard:nth-child(3) b{animation-delay:.7s}
+.proofCard:nth-child(4) b{animation-delay:1.05s}
+@keyframes numberFloat{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-3px)}
+}
+.quickCard::before,.proofCard::before,.clientRefCard::before{
+  content:"";
+  position:absolute;
+  inset:auto 0 0 0;
+  height:4px;
+  background:linear-gradient(90deg,var(--red,#EA1D2C),#FF8A00);
+  opacity:.88;
+  transform:scaleX(.82);
+  transform-origin:left center;
+  transition:transform .32s var(--ease-premium);
+}
+.quickCard:hover::before,.proofCard:hover::before,.clientRefCard:hover::before{
+  transform:scaleX(1);
+}
+section{
+  position:relative;
+  z-index:1;
+}
+@media(max-width:1100px){
+  .hero aside{
+    animation:none;
+  }
+}
+@media(max-width:900px){
+  body::before{opacity:.72}
+  .motoRide{display:none}
+  .miniMap::before{animation-duration:5.5s}
+}
+@media(prefers-reduced-motion:reduce){
+  *{
+    animation:none!important;
+    transition:none!important;
+    scroll-behavior:auto!important;
+  }
+}
+
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "@id": "https://www.osascoexpress.com.br/#localbusiness", "name": "Osasco Express", "description": "Operações de entrega recorrentes em Osasco para negócios, comércios, empresas e instituições.", "url": "https://www.osascoexpress.com.br/", "telephone": "+55 11 97033-4125", "sameAs": ["https://www.instagram.com/osascoexpressmotoboys/"], "areaServed": ["Osasco", "Presidente Altino", "Quitaúna", "Km 18", "Bela Vista", "Vila Yara", "Rochdale", "Padroeira", "Novo Osasco", "Jardim D'Abril", "Jaguaribe", "Santo Antônio", "Bussocaba"], "department": [{"@type": "Organization", "name": "Atendimento Comercial Osasco Express", "telephone": "+55 11 97033-4125"}, {"@type": "Organization", "name": "SAC Especializado Osasco Express", "telephone": "+55 11 98666-1784"}], "hasMap": "https://g.page/r/CZ_CoJtVD9_rEBM/review", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "47"}, "serviceType": ["Entregas recorrentes para empresas", "Rotas empresariais", "Entrega para comércio local", "Entrega para e-commerce e marketplace", "Entrega de documentos e malotes", "Operação para restaurantes e food service", "Entrega institucional", "Terceirização de entregas"]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "A Osasco Express atende restaurantes e entrega em Osasco?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. A Osasco Express estrutura entregas para restaurantes, pizzarias, hamburguerias, pastelarias, mercados e operações de entrega em Osasco e região."}}, {"@type": "Question", "name": "A Osasco Express atende vendedores de marketplace e e-commerce?", "acceptedAnswer": {"@type": "Answer", "text": "Sim. A Osasco Express atende sellers, lojistas e operações online que precisam de coleta, entrega local, rotas e terceirização de entregas urbanas."}}, {"@type": "Question", "name": "Como um entregador pode se cadastrar?", "acceptedAnswer": {"@type": "Answer", "text": "O entregador pode preencher a ficha cadastral, baixar o app Android da Osasco Express e acessar a escala digital para confirmação de horários."}}]}]}</script>
 <script src="https://elfsightcdn.com/platform.js" async></script>
@@ -655,6 +902,29 @@ button[disabled]{opacity:.55;cursor:not-allowed;transform:none!important}
       <h3 style="margin-top:14px">Cobertura visual, operação local e atendimento humano.</h3>
       <div class="miniMap">
         <svg class="routeLine" viewBox="0 0 400 240" preserveAspectRatio="none"><path d="M65 65 C135 35, 180 78, 225 72 S315 70, 330 120 S250 170, 210 160 S110 175, 88 132" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="3" stroke-dasharray="8 8"/></svg>
+        <span class="motoRide ride1" aria-hidden="true">
+          <span class="bubble">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="6" cy="17.5" r="2.3"></circle>
+              <circle cx="18" cy="17.5" r="2.3"></circle>
+              <path d="M8.2 17.5h4.3l2.1-4.3h2.4"></path>
+              <path d="M11.6 13.2 9.4 9.8H6.9"></path>
+              <path d="M14.7 13.2h-3.1"></path>
+            </svg>
+          </span>
+        </span>
+        <span class="motoRide ride2" aria-hidden="true">
+          <span class="bubble">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="6" cy="17.5" r="2.3"></circle>
+              <circle cx="18" cy="17.5" r="2.3"></circle>
+              <path d="M8.2 17.5h4.3l2.1-4.3h2.4"></path>
+              <path d="M11.6 13.2 9.4 9.8H6.9"></path>
+              <path d="M14.7 13.2h-3.1"></path>
+            </svg>
+          </span>
+        </span>
+
         <div class="pin p1"><i></i><span>Centro</span></div><div class="pin p2"><i></i><span>Km 18</span></div><div class="pin p3"><i></i><span>Vila Yara</span></div><div class="pin p4"><i></i><span>Quitaúna</span></div><div class="pin p5"><i></i><span>Rochdale</span></div><div class="pin p6"><i></i><span>Padroeira</span></div>
       </div>
       <div class="panelList"><div class="panelItem"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M6 16V8a3 3 0 0 1 3-3h6"/></svg></span><div><strong>Do pedido à entrega</strong><p>A página mostra processo, não só serviço.</p></div></div></div>

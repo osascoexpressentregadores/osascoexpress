@@ -71,3 +71,8 @@ V5.6 — REFERÊNCIAS SUTIS
 - Incluída seção de referências públicas com links para Instagram.
 - Links abrem em nova guia.
 - Mantida proposta principal do site, sem poluir a navegação.
+
+
+V5.7 — MOTION DESIGN
+- Evolução visual com animações sutis, hero mais forte e mini mapa com motos em movimento.
+- Sem alterar a lógica comercial, formulários, Sheets ou área comercial.

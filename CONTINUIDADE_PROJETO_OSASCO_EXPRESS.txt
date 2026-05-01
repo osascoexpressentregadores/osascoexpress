@@ -359,3 +359,21 @@ Mostrar presença real, relacionamento e ecossistema local sem parecer ostentaç
 
 Regra:
 As referências devem ser sutis, abrir em nova guia e não tomar o lugar da proposta principal do site.
+
+
+========================================
+16. AJUSTE V5.7 — MOTION DESIGN
+========================================
+
+Foi feita uma evolução visual sem alterar a lógica do projeto:
+- animações sutis e coerentes;
+- hero com mais presença;
+- mini mapa com sensação de operação viva;
+- motos em movimento na área visual;
+- route line animada;
+- pins com pulsação sutil;
+- cartões e botões com microinterações;
+- cuidado com responsividade e redução de movimento.
+
+Regra:
+A animação deve valorizar a percepção premium e a ideia de operação em movimento, sem poluir a experiência.
