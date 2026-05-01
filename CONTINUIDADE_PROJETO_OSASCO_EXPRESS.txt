@@ -1,0 +1,361 @@
+CONTINUIDADE DO PROJETO — SITE OSASCO EXPRESS
+Versão de referência: V5.4 — Final com Sheets, Área Comercial e Memória Embutida
+Data de referência: 2026-05-01
+
+========================================
+1. ESSÊNCIA DO PROJETO
+========================================
+
+A Osasco Express não deve ser posicionada como empresa comum de motoboy, nem apenas como delivery para restaurante.
+
+A posição correta é:
+
+A Osasco Express organiza operações de entrega para negócios, empresas e instituições que precisam de rotina, prazo, responsabilidade e recorrência.
+
+Restaurantes, pizzarias e hamburguerias são uma vertical importante, mas NÃO são o centro absoluto da marca.
+
+Tudo que pode virar contrato, rota, mensalidade, assinatura, turno ou recorrência merece espaço real.
+
+Verticais importantes:
+- restaurantes;
+- pizzarias;
+- hamburguerias;
+- pastelarias;
+- lojas;
+- comércio local;
+- e-commerce;
+- sellers / marketplace;
+- Mercado Livre;
+- Shopee;
+- contabilidades;
+- escritórios;
+- bancos;
+- órgãos públicos;
+- instituições;
+- empresas;
+- rotas corporativas;
+- entregadores parceiros.
+
+Regra de ouro:
+Tudo que pode virar contrato merece espaço.
+
+========================================
+2. FRASES-GUIA
+========================================
+
+Frase-mãe:
+A Osasco Express organiza operações de entrega para negócios que precisam de rotina, prazo, responsabilidade e recorrência.
+
+Frase interna:
+O cliente bom não compra corrida. Compra tranquilidade operacional.
+
+Outra frase importante:
+Não vendemos corrida solta. Vendemos operação funcionando.
+
+Nunca voltar para:
+- comunicação focada só em restaurante;
+- “motoboy barato”;
+- corrida avulsa como centro do site;
+- preço seco antes de entender a operação;
+- formulário que só abre WhatsApp sem registrar dados.
+
+========================================
+3. LINGUAGEM DA MARCA
+========================================
+
+A linguagem deve ser sempre:
+- humana;
+- clara;
+- direta;
+- profissional;
+- sem tom robótico;
+- sem arrogância;
+- sem parecer barato;
+- com energia de negócio real;
+- técnica quando necessário, mas fácil de entender.
+
+A marca precisa soar como uma empresa que entende o dia a dia de quem vende, envia documentos, faz coletas, atende clientes, roda rotas e precisa cumprir prazo.
+
+========================================
+4. GATILHOS PREMIUM DEFINIDOS
+========================================
+
+Os gatilhos para vender para quem tem dinheiro para investir são:
+
+1. Proteção patrimonial
+A entrega protege reputação, prazo, cliente, documento, venda e equipe.
+
+2. Custo invisível
+A corrida barata pode gerar atraso, reclamação, retrabalho e perda de confiança.
+
+3. Previsibilidade
+Empresas com demanda recorrente não podem depender de sorte.
+
+4. Alívio da gestão
+O cliente quer menos problema, não mais uma coisa para gerenciar.
+
+5. Status operacional
+A Osasco Express não vende “chamar motoboy”; vende operação compatível com empresas sérias.
+
+6. Análise da operação
+Antes de falar em valor, a operação precisa ser entendida.
+
+7. Responsabilidade
+Documento, malote, contrato, pedido, rota e entrega institucional não combinam com improviso.
+
+8. Recorrência
+A primeira entrega mostra capacidade. A recorrência mostra estrutura.
+
+========================================
+5. ESTRUTURA ATUAL DO SITE
+========================================
+
+O site contém:
+- hero amplo;
+- cards por tipo de operação;
+- proteção operacional;
+- custo invisível;
+- quando vale contratar operação recorrente;
+- diferença entre corrida solta e operação estruturada;
+- mapa de atuação;
+- avaliações Google via Elfsight;
+- formulário multi-step de clientes;
+- cadastro de entregadores;
+- CTA final;
+- área comercial interna em comercial.html;
+- integração com Google Sheets;
+- botão flutuante WhatsApp no desktop;
+- bottom bar no mobile.
+
+O hero não deve voltar para “Seu restaurante...”.
+O topo precisa falar com negócios, empresas e instituições.
+
+Mensagem do topo:
+Entregas recorrentes para negócios que não podem depender de improviso.
+
+========================================
+6. GOOGLE SHEETS E APPS SCRIPT
+========================================
+
+Planilha oficial de captação:
+https://docs.google.com/spreadsheets/d/1sW9TSOeWODXXz9iYAxFbKnX5ryYVS9Y1If9ptR3P4QE/edit?usp=sharing
+
+Web App / Apps Script oficial:
+https://script.google.com/macros/s/AKfycby1f0lm7VcHIy0TbmNkNWaON1DtPOmXnERP4Nlif5o8JA2IY4_abUnX2BgPMxA5UxNT/exec
+
+A planilha deve ter duas abas principais:
+- Clientes
+- Entregadores
+
+Nunca misturar clientes e entregadores na mesma aba.
+
+Fluxo de clientes:
+Pessoa acessa o site
+→ preenche análise da operação
+→ site salva na aba Clientes
+→ site libera WhatsApp com mensagem organizada
+→ comercial recebe contexto
+→ equipe responde com análise inicial
+→ proposta consultiva
+→ fechamento ou follow-up
+
+Fluxo de entregadores:
+Entregador acessa o site
+→ abre cadastro
+→ preenche dados
+→ site salva na aba Entregadores
+→ libera WhatsApp para agilizar triagem
+→ equipe confere perfil
+→ orienta app, escala e próximos passos
+
+========================================
+7. CAMPOS DO FORMULÁRIO DE CLIENTES
+========================================
+
+O formulário de clientes coleta:
+- nome;
+- WhatsApp;
+- e-mail;
+- nome do negócio ou instituição;
+- tipo de operação;
+- volume aproximado;
+- período crítico;
+- modelo atual;
+- problema principal;
+- bairro/cidade;
+- frequência desejada;
+- observações;
+- origem;
+- página;
+- dispositivo;
+- UTMs;
+- temperatura do cadastro;
+- mensagem WhatsApp.
+
+A aba Clientes recebe os dados.
+
+========================================
+8. CAMPOS DO FORMULÁRIO DE ENTREGADORES
+========================================
+
+O cadastro de entregadores coleta:
+- nome;
+- WhatsApp;
+- e-mail;
+- cidade/bairro;
+- possui moto;
+- possui CNH;
+- possui bag;
+- dias disponíveis;
+- horários disponíveis;
+- experiência;
+- app baixado;
+- escala acessada;
+- observações;
+- status;
+- origem;
+- página;
+- dispositivo;
+- UTMs.
+
+A aba Entregadores recebe os dados.
+
+========================================
+9. WHATSAPPS USADOS
+========================================
+
+Comercial:
+5511970334125
+
+SAC:
+5511986661784
+
+Entregadores:
+5511924782555
+
+Antes de alterar qualquer número publicamente, confirmar com o usuário.
+
+========================================
+10. ÁREA COMERCIAL
+========================================
+
+A área comercial fica em:
+comercial.html
+
+Login:
+admin
+2026
+
+A área comercial deve ter acesso visível à planilha oficial de captação:
+https://docs.google.com/spreadsheets/d/1sW9TSOeWODXXz9iYAxFbKnX5ryYVS9Y1If9ptR3P4QE/edit?usp=sharing
+
+Ela deve apoiar o time a vender:
+- operação;
+- recorrência;
+- rota;
+- turno;
+- mensalidade;
+- contrato;
+- responsabilidade;
+- previsibilidade.
+
+A área comercial não é CRM completo. É apoio interno e consulta rápida.
+
+========================================
+11. TESTES OBRIGATÓRIOS APÓS SUBIR
+========================================
+
+Teste cliente:
+1. abrir o site em guia anônima;
+2. preencher o formulário de análise;
+3. verificar se caiu na aba Clientes;
+4. verificar se a mensagem do WhatsApp abriu correta;
+5. conferir temperatura, página, dispositivo e UTM.
+
+Teste entregador:
+1. abrir cadastro de entregador;
+2. preencher dados;
+3. verificar se caiu na aba Entregadores;
+4. verificar se WhatsApp abriu com mensagem organizada.
+
+Teste visual:
+- celular;
+- notebook;
+- desktop;
+- menu;
+- hero;
+- avaliações;
+- formulário;
+- mapa;
+- rodapé;
+- área comercial.
+
+========================================
+12. PRÓXIMAS ETAPAS FUTURAS
+========================================
+
+Depois de subir e testar:
+1. instalar Google Tag Manager;
+2. instalar Google Analytics 4;
+3. instalar Search Console;
+4. configurar eventos de conversão;
+5. criar páginas internas SEO por vertical;
+6. criar rotina de follow-up comercial;
+7. criar relatórios de origem dos cadastros;
+8. medir quais segmentos mais geram conversa boa.
+
+Eventos futuros importantes:
+- click_whatsapp_comercial;
+- click_whatsapp_entregador;
+- submit_cliente_sheets;
+- submit_entregador_sheets;
+- click_google_reviews;
+- open_modal_analise;
+- open_entregador_modal.
+
+========================================
+13. REGRA FINAL PARA NÃO RETROCEDER
+========================================
+
+A Osasco Express não vende apenas entrega.
+Ela organiza a etapa que muitos negócios só percebem quando dá problema.
+
+Nunca reduzir o projeto a uma única vertical.
+Nunca voltar para linguagem fria, genérica ou barata.
+Nunca perder a separação entre Clientes e Entregadores.
+Nunca depender apenas do WhatsApp.
+Sempre preservar a lógica:
+site → planilha → WhatsApp → atendimento → proposta → follow-up.
+
+
+========================================
+14. AJUSTE V5.5 — POPUP, WHATSAPP E MOBILE
+========================================
+
+Foi corrigido o conflito visual entre o convite/popup e o botão flutuante do WhatsApp.
+
+Regra atual:
+- Desktop: botão flutuante do WhatsApp fica no canto inferior direito.
+- Desktop: convite/análise aparece no canto inferior esquerdo, não em cima do WhatsApp.
+- Convite automático aparece apenas após 40 segundos de permanência no site.
+- Mobile: convite automático e WhatsApp flutuante ficam ocultos; a navegação usa bottom bar fixa.
+- Modal tem botão de fechar mais claro e cabeçalho fixo.
+
+Essa regra deve ser preservada em próximas versões.
+
+
+========================================
+15. AJUSTE V5.6 — REFERÊNCIAS SUTIS
+========================================
+
+Foi adicionada uma seção discreta de referências públicas no Instagram:
+- @pasteldacamilla
+- @pizzariabevenutti
+- @cantinadolcevida
+- @artistasnacidade
+
+Objetivo:
+Mostrar presença real, relacionamento e ecossistema local sem parecer ostentação ou propaganda forçada.
+
+Regra:
+As referências devem ser sutis, abrir em nova guia e não tomar o lugar da proposta principal do site.
