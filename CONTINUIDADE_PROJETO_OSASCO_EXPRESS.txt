@@ -377,3 +377,25 @@ Foi feita uma evolução visual sem alterar a lógica do projeto:
 
 Regra:
 A animação deve valorizar a percepção premium e a ideia de operação em movimento, sem poluir a experiência.
+
+
+========================================
+17. AJUSTE V5.8 — LINGUAGEM PREMIUM
+========================================
+
+Foi ajustada a linguagem pública para evitar termos agressivos ou pequenos, como “contrato bom” e “corrida solta”.
+
+Direção correta:
+- falar de operação recorrente;
+- consistência;
+- responsabilidade;
+- previsibilidade;
+- rotina de entrega;
+- nível de responsabilidade do cliente;
+- entrega improvisada como problema, sem baixar o nível da marca.
+
+Também foi corrigido o Instagram da Pizzaria Bevenutti:
+https://www.instagram.com/pizzaria.bevenutti_/
+
+Regra:
+A comunicação deve soar empresarial, segura e premium, nunca pobre, agressiva ou pequena.

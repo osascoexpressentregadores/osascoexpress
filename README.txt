@@ -76,3 +76,9 @@ V5.6 — REFERÊNCIAS SUTIS
 V5.7 — MOTION DESIGN
 - Evolução visual com animações sutis, hero mais forte e mini mapa com motos em movimento.
 - Sem alterar a lógica comercial, formulários, Sheets ou área comercial.
+
+
+V5.8 — LINGUAGEM PREMIUM
+- Ajustada linguagem pública para tom mais empresarial e premium.
+- Removidas expressões como “contrato bom” e “corrida solta” da comunicação principal.
+- Corrigido link Instagram da Pizzaria Bevenutti para @pizzaria.bevenutti_.
