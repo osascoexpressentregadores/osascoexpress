@@ -404,3 +404,11 @@ V6.6 — CENTRAL OSASCO EXPRESS
 - Respostas úteis com potencial de SEO e valor real para quem lê.
 - Adicionado FAQPage JSON-LD com perguntas visíveis na página.
 - CTA final da central leva para análise rápida, mantendo captura no Sheets primeiro e WhatsApp opcional depois.
+
+
+V6.7 — REVISÃO TEXTUAL E ANTIRREDUNDÂNCIA
+- Removida seção redundante de buscas relacionadas, pois a Central Osasco Express já cobre a intenção de busca com mais qualidade.
+- Mantida a estratégia SEO com conteúdo visível, Central robusta e JSON-LD.
+- Corrigidos textos com repetição, pequenas falhas de português e frases pouco naturais.
+- Ajustada linguagem para ficar mais clara, profissional e coesa.
+- Preservados formulários, Google Sheets, WhatsApp opcional, área comercial, app e entregadores.
