@@ -399,3 +399,32 @@ https://www.instagram.com/pizzaria.bevenutti_/
 
 Regra:
 A comunicação deve soar empresarial, segura e premium, nunca pobre, agressiva ou pequena.
+
+
+========================================
+18. AJUSTE V5.9 — COPY SÊNIOR E HTTPS
+========================================
+
+Foi feita uma revisão ampla de copy para elevar o tom do site:
+- menos linguagem agressiva;
+- menos termos pequenos;
+- mais clareza empresarial;
+- mais foco em rotina, prazo, responsabilidade, previsibilidade e operação.
+
+Termos que devem ser evitados na comunicação pública:
+- contrato bom;
+- corrida solta;
+- motoboy barato;
+- tabela genérica como centro da conversa;
+- qualquer frase que reduza a Osasco Express a serviço pequeno.
+
+Também foram adicionados reforços de segurança/HTTPS:
+- arquivo CNAME com www.osascoexpress.com.br;
+- canonical em HTTPS;
+- sitemap e robots usando HTTPS;
+- CSP com upgrade-insecure-requests;
+- redirecionamento de HTTP para HTTPS no domínio oficial;
+- arquivo SEGURANCA_SSL_HTTPS.txt com instruções.
+
+Atenção:
+O cadeado definitivo depende de ativar Enforce HTTPS no GitHub Pages.

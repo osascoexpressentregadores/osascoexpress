@@ -1,0 +1,25 @@
+SEGURANÇA / SSL / HTTPS — OSASCO EXPRESS
+
+O pacote já inclui:
+- CNAME com www.osascoexpress.com.br
+- sitemap.xml usando https://www.osascoexpress.com.br
+- robots.txt apontando sitemap em HTTPS
+- canonical para https://www.osascoexpress.com.br/
+- Content-Security-Policy para upgrade-insecure-requests e block-all-mixed-content
+- redirecionamento JavaScript de http para https no domínio oficial
+
+IMPORTANTE:
+O cadeado definitivo depende da configuração no GitHub Pages.
+
+Depois de subir:
+1. Abra o repositório no GitHub.
+2. Vá em Settings → Pages.
+3. Em Custom domain, confirme: www.osascoexpress.com.br
+4. Salve.
+5. Aguarde o GitHub emitir o certificado.
+6. Marque Enforce HTTPS.
+7. Teste:
+   https://www.osascoexpress.com.br/
+   https://osascoexpress.com.br/
+
+Se o domínio sem www continuar aparecendo como não seguro, ajustar DNS/redirecionamento no provedor do domínio.

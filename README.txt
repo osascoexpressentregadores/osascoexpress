@@ -82,3 +82,12 @@ V5.8 — LINGUAGEM PREMIUM
 - Ajustada linguagem pública para tom mais empresarial e premium.
 - Removidas expressões como “contrato bom” e “corrida solta” da comunicação principal.
 - Corrigido link Instagram da Pizzaria Bevenutti para @pizzaria.bevenutti_.
+
+
+V5.9 — COPY SÊNIOR + HTTPS
+- Revisão geral de textos públicos e internos.
+- Ajuste de linguagem para tom mais empresarial, humano e premium.
+- Adicionado CNAME para www.osascoexpress.com.br.
+- Adicionado SEGURANCA_SSL_HTTPS.txt.
+- Sitemap, robots, canonical e política de upgrade para HTTPS.
+- Para o cadeado aparecer, ativar Enforce HTTPS no GitHub Pages.
