@@ -8,13 +8,13 @@ ID instalado:
    G-G0C9GMJRYX
 
 2. Sitemap criado na raiz:
-   https://www.osascoexpress.com.br/sitemap.xml
+   https://osascoexpress.com.br/sitemap.xml
 
 No Google Search Console, envie apenas:
    sitemap.xml
 
 3. Robots criado na raiz:
-   https://www.osascoexpress.com.br/robots.txt
+   https://osascoexpress.com.br/robots.txt
 
 4. Teste de tag:
    Abra o site publicado, use Ctrl+U e procure por G-G0C9GMJRYX.

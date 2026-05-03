@@ -1,0 +1,31 @@
+VERIFICAÇÃO SÊNIOR — OSASCO EXPRESS
+
+Pacote revisado para GitHub Pages com domínio canônico consistente:
+https://osascoexpress.com.br
+
+Itens conferidos:
+1. Home preservada: /index.html
+2. Páginas SEO reais com index.html próprio:
+   /gestao-de-delivery-para-restaurantes/
+   /operacao-de-delivery-para-restaurantes/
+   /escala-de-entregadores-para-restaurantes/
+   /entregadores-para-restaurantes-em-osasco/
+   /diagnostico-operacional-delivery/
+   /delivery-para-pizzarias/
+   /delivery-para-hamburguerias/
+   /delivery-para-pastelarias/
+3. Menu desktop e mobile apontando para páginas reais + âncoras.
+4. Sitemap atualizado com todas as páginas.
+5. Robots.txt apontando para o sitemap.
+6. CNAME definido como osascoexpress.com.br.
+7. .nojekyll incluído para GitHub Pages.
+8. 404.html incluído.
+9. Google Analytics mantido.
+10. Formulário preservado com integração Apps Script/Sheets.
+
+Atenção de deploy:
+Subir o CONTEÚDO interno do ZIP na raiz do repositório, não o ZIP como pasta.
+Depois testar:
+https://osascoexpress.com.br/
+https://osascoexpress.com.br/entregadores-para-restaurantes-em-osasco/
+https://osascoexpress.com.br/sitemap.xml

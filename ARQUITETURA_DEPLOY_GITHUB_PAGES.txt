@@ -23,9 +23,9 @@ OSASCO EXPRESS — ARQUITETURA CORRIGIDA PARA GITHUB PAGES E SEO
 3. Não subir somente o index.html. Subir todas as pastas.
 
 4. Depois do deploy, testar:
-https://www.osascoexpress.com.br/entregadores-para-restaurantes-em-osasco/
-https://www.osascoexpress.com.br/sitemap.xml
-https://www.osascoexpress.com.br/robots.txt
+https://osascoexpress.com.br/entregadores-para-restaurantes-em-osasco/
+https://osascoexpress.com.br/sitemap.xml
+https://osascoexpress.com.br/robots.txt
 
 5. No Search Console, enviar apenas: sitemap.xml
 

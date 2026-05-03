@@ -1,0 +1,34 @@
+CHECKLIST SÊNIOR FINAL — OSASCO EXPRESS
+
+Arquitetura verificada:
+- Home preservada na raiz: /index.html
+- Páginas SEO em pastas próprias com index.html para GitHub Pages.
+- Menu desktop e mobile apontando para páginas reais + âncoras correspondentes.
+- Sitemap atualizado com todas as URLs indexáveis.
+- Robots.txt apontando para o sitemap.
+- CNAME consistente com osascoexpress.com.br.
+- .nojekyll incluído para evitar bloqueio de assets no GitHub Pages.
+- 404.html incluído.
+
+Conversão:
+- Formulário curto de 5 perguntas mantido.
+- Integração com Apps Script/Google Sheets preservada.
+- WhatsApp abre após o envio do formulário.
+- Botão flutuante do WhatsApp incluído em todas as páginas públicas.
+- Barra inferior mobile com Comercial + Diagnóstico.
+
+SEO/On-page:
+- Titles, descriptions, canonicals, OG tags, Twitter cards e schema preservados.
+- Páginas segmentadas por intenção de busca.
+- Textos públicos revisados para evitar linguagem interna como “CPI aplicada”.
+- Links externos com rel=noopener.
+
+Testes depois de subir:
+1. https://osascoexpress.com.br/
+2. https://osascoexpress.com.br/sitemap.xml
+3. https://osascoexpress.com.br/gestao-de-delivery-para-restaurantes/
+4. https://osascoexpress.com.br/operacao-de-delivery-para-restaurantes/
+5. https://osascoexpress.com.br/escala-de-entregadores-para-restaurantes/
+6. https://osascoexpress.com.br/entregadores-para-restaurantes-em-osasco/
+7. Preencher o formulário e conferir a linha na aba Clientes da planilha.
+8. Clicar no WhatsApp flutuante no desktop e no mobile.
