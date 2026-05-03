@@ -1,0 +1,62 @@
+CPI APLICADA — OSASCO EXPRESS
+Versão: refinamento sênior pós-análise de impacto
+
+Diretriz central:
+Preservar a estrutura visual existente e elevar o posicionamento para inteligência operacional para delivery de restaurantes, sem reconstruir o site do zero.
+
+Correções por especialista sênior:
+
+1. April Dunford — Posicionamento
+- A narrativa deixou de puxar a Osasco Express para “serviço comum de entrega”.
+- O site passa a defender a categoria: inteligência operacional para delivery de restaurantes.
+- O cliente principal ficou mais claro: restaurantes e operações food service com demanda recorrente.
+
+2. David Ogilvy — Clareza e promessa
+- Hero reescrito para uma promessa mais forte: “Seu restaurante cresceu. Agora sua operação precisa acompanhar.”
+- CTA principal reposicionado para “Diagnosticar minha operação”.
+- Frases genéricas foram substituídas por promessa de valor operacional.
+
+3. Eugene Schwartz — Níveis de consciência
+- A jornada agora começa na dor do improviso e conduz até o diagnóstico.
+- O visitante entende primeiro o problema, depois a solução, depois a ação.
+
+4. Claude Hopkins — Lógica e demonstração
+- Foi reforçado o método: diagnóstico, estruturação e acompanhamento.
+- O site explica por que preço vem depois de entender volume, pico e região.
+
+5. Robert Cialdini — Confiança e autoridade
+- Prova territorial, tempo de atuação e volume operacional ficaram mais conectados à confiança.
+- A linguagem reduz risco e evita promessa rasa.
+
+6. Alex Hormozi — Valor percebido
+- A oferta deixou de parecer “entregador” e passou a vender previsibilidade, escala, controle e crescimento.
+- O formulário passou a qualificar problema, volume, frequência e gargalo.
+
+7. Donald Miller — StoryBrand
+- O restaurante é o herói.
+- A Osasco Express é o guia.
+- O vilão é o improviso operacional.
+- O plano é diagnóstico + escala + acompanhamento.
+
+8. Joanna Wiebe — Copy de conversão
+- CTAs, FAQ, modal e microtextos foram reescritos para conversão.
+- O briefing virou diagnóstico operacional.
+
+9. Peep Laja — CRO
+- Redução de ruído nos CTAs.
+- Formulário mais qualificador.
+- Blocos mais conectados com a decisão comercial.
+
+10. Jakob Nielsen / Steve Krug — UX
+- A navegação foi simplificada em Soluções, Operação, Território, Parceiros e Diagnóstico.
+- O usuário entende o próximo passo sem esforço.
+
+11. Neil Patel / Brian Dean — SEO local premium
+- Title, description, keywords e schema foram reposicionados.
+- Mantidas expressões buscáveis, mas sem deixar a marca parecer commodity.
+
+12. Marty Neumeier — Marca
+- A percepção agora gira em torno de controle, território, operação, confiança e crescimento.
+
+Resumo executivo:
+Esta versão não reconstrói o site. Ela preserva a estrutura, lapida a narrativa e reposiciona a Osasco Express para vender operação recorrente de maior valor.
