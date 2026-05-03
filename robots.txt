@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /comercial.html
 
 Sitemap: https://www.osascoexpress.com.br/sitemap.xml

@@ -1,0 +1,11 @@
+REVISÃO FINAL APLICADA
+
+- Português revisado nos principais textos do site.
+- Lógica de navegação corrigida: "Ver como funciona" e menu "Operação" apontam para a seção operacional correta.
+- Google Tag/Analytics mantido no head das páginas.
+- Eventos básicos adicionados para abertura do diagnóstico e geração do lead.
+- Sitemap.xml corrigido e pronto para envio no Search Console.
+- Robots.txt corrigido com sitemap e bloqueio da central comercial.
+- JSON-LD/Schema revisado com posicionamento premium e FAQ coerente com a página.
+- Metatags principais revisadas: title, description, canonical, robots, Open Graph e Twitter card.
+- Mensagens de WhatsApp ajustadas para diagnóstico operacional, sem reduzir o negócio a entrega comum.
