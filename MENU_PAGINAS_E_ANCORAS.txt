@@ -1,0 +1,21 @@
+MENU REFEITO — PÁGINAS + ÂNCORAS
+
+O menu principal agora não aponta mais para rolagem solta da home. Cada item chama uma página SEO real e mantém a âncora correspondente dentro da própria página:
+
+Soluções -> /gestao-de-delivery-para-restaurantes/#solucoes
+Operação -> /operacao-de-delivery-para-restaurantes/#operacao
+Escala -> /escala-de-entregadores-para-restaurantes/#escala
+Restaurantes -> /entregadores-para-restaurantes-em-osasco/#restaurantes
+Diagnóstico -> /diagnostico-operacional-delivery/#diagnostico
+Central Comercial -> /comercial.html
+
+Correções técnicas aplicadas:
+- links absolutos para evitar 404 em subpastas;
+- anchors reais nos <main> das páginas SEO;
+- menu mobile alinhado com o desktop;
+- estado visual ativo no item de menu da página atual;
+- quick cards da home apontando para páginas + âncoras;
+- Central Comercial corrigida para /comercial.html;
+- nenhuma alteração no Apps Script, Analytics, sitemap, robots ou formulário.
+
+Para subir no GitHub Pages, envie todos os arquivos e pastas da raiz deste pacote, não a pasta compactada inteira dentro do repositório.
