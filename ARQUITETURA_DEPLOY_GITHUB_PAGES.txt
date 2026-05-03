@@ -1,0 +1,34 @@
+OSASCO EXPRESS — ARQUITETURA CORRIGIDA PARA GITHUB PAGES E SEO
+
+1. O erro 404 acontece quando a URL existe no sitemap/menu, mas a pasta correspondente não está publicada na raiz do GitHub Pages.
+
+2. Estrutura obrigatória na raiz do repositório:
+/index.html
+/comercial.html
+/CNAME
+/.nojekyll
+/404.html
+/robots.txt
+/sitemap.xml
+/assets/img/og-osasco-express.png
+/gestao-de-delivery-para-restaurantes/index.html
+/operacao-de-delivery-para-restaurantes/index.html
+/escala-de-entregadores-para-restaurantes/index.html
+/entregadores-para-restaurantes-em-osasco/index.html
+/diagnostico-operacional-delivery/index.html
+/delivery-para-pizzarias/index.html
+/delivery-para-hamburguerias/index.html
+/delivery-para-pastelarias/index.html
+
+3. Não subir somente o index.html. Subir todas as pastas.
+
+4. Depois do deploy, testar:
+https://www.osascoexpress.com.br/entregadores-para-restaurantes-em-osasco/
+https://www.osascoexpress.com.br/sitemap.xml
+https://www.osascoexpress.com.br/robots.txt
+
+5. No Search Console, enviar apenas: sitemap.xml
+
+6. O arquivo .nojekyll foi incluído para evitar processamento desnecessário do GitHub Pages.
+
+7. O arquivo CNAME foi incluído com osascoexpress.com.br para manter o domínio customizado no GitHub Pages.
