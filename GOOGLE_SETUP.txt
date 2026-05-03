@@ -1,0 +1,25 @@
+CONFIGURAÇÃO GOOGLE — OSASCO EXPRESS
+
+Arquivos incluídos nesta versão:
+- index.html com Google Analytics / Google Tag instalada
+- comercial.html com Google Analytics / Google Tag instalada
+- sitemap.xml pronto
+- robots.txt apontando para o sitemap
+
+ID instalado:
+G-G0C9GMJRYX
+
+Depois de subir os arquivos na raiz do site, teste estes endereços:
+https://www.osascoexpress.com.br/sitemap.xml
+https://www.osascoexpress.com.br/robots.txt
+
+No Google Search Console, em Sitemaps, envie apenas:
+sitemap.xml
+
+Não envie /SITEMAP, /sitemap ou endereço em maiúsculo.
+
+No Google Analytics / Google Tag, use o teste com:
+https://www.osascoexpress.com.br
+
+Observação:
+O arquivo comercial.html está com noindex,nofollow, por isso não foi incluído no sitemap. Ele recebe a tag do Analytics para você medir acessos quando enviar a página por link, mas não será empurrado para indexação orgânica.
