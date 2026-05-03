@@ -1,0 +1,26 @@
+INTEGRAÇÃO GOOGLE SHEETS - OSASCO EXPRESS
+
+Este pacote já está com o index.html conectado ao Apps Script:
+https://script.google.com/macros/s/AKfycby1f0lm7VcHIy0TbmNkNWaON1DtPOmXnERP4Nlif5o8JA2IY4_abUnX2BgPMxA5UxNT/exec
+
+O formulário público envia os campos no padrão esperado pelo Apps Script atual:
+- tipo_formulario = cliente
+- nome
+- whatsapp
+- tipo_operacao
+- volume
+- problema
+- temperatura
+- status
+- pagina
+- dispositivo
+- UTMs
+- mensagem_whatsapp
+
+Fluxo final:
+1. Cliente preenche o formulário de 5 perguntas.
+2. O site envia os dados para o Apps Script.
+3. O Apps Script grava na aba Clientes.
+4. O site abre o WhatsApp com a mensagem pronta.
+
+Não use a URL da biblioteca. Use apenas a URL /exec do App da Web.

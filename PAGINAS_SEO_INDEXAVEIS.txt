@@ -1,0 +1,13 @@
+Páginas SEO criadas e prontas para subir:
+
+/gestao-de-delivery-para-restaurantes/
+/operacao-de-delivery-para-restaurantes/
+/escala-de-entregadores-para-restaurantes/
+/entregadores-para-restaurantes-em-osasco/
+/diagnostico-operacional-delivery/
+/delivery-para-pizzarias/
+/delivery-para-hamburguerias/
+/delivery-para-pastelarias/
+
+Home preservada. Formulário mantido conectado ao Google Sheets e WhatsApp.
+Sitemap atualizado. Robots.txt atualizado. Google Analytics mantido.

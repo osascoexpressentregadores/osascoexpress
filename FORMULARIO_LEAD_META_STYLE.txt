@@ -1,0 +1,18 @@
+FORMULÁRIO ATUALIZADO — ESTILO META ADS
+
+O formulário público do site foi reduzido para 5 campos:
+
+1. Nome
+2. WhatsApp
+3. Tipo de operação
+4. Média de pedidos de delivery por dia
+5. Maior gargalo atual
+
+Comportamento ao enviar:
+- prepara os dados do lead;
+- tenta enviar para Google Sheets via Apps Script;
+- abre o WhatsApp comercial com a mensagem pronta;
+- registra evento no Google Analytics.
+
+Observação importante:
+Para a captura na planilha funcionar, é obrigatório implantar o Apps Script como Web App e colar a URL /exec no index.html.

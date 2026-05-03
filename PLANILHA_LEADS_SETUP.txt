@@ -1,0 +1,62 @@
+CONFIGURAÇÃO DO FORMULÁRIO — OSASCO EXPRESS
+
+OBJETIVO
+Fazer o formulário do site enviar os leads automaticamente para a planilha:
+https://docs.google.com/spreadsheets/d/1sW9TSOeWODXXz9iYAxFbKnX5ryYVS9Y1If9ptR3P4QE/edit
+
+O arquivo do Apps Script já está pronto:
+APPS_SCRIPT_PLANILHA_OSASCO_EXPRESS.gs
+
+PASSO A PASSO
+
+1. Abra a planilha.
+2. Vá em Extensões > Apps Script.
+3. Apague qualquer código antigo.
+4. Cole o conteúdo inteiro do arquivo APPS_SCRIPT_PLANILHA_OSASCO_EXPRESS.gs.
+5. Salve o projeto com o nome: Webhook Leads Osasco Express.
+6. No Apps Script, selecione a função setup e clique em Executar.
+7. Autorize o acesso à sua conta Google.
+8. Depois selecione a função testeManual e clique em Executar.
+9. Volte na planilha e confirme se apareceu uma linha de teste na aba Leads Site.
+
+SE O TESTE MANUAL FUNCIONOU
+
+10. Clique em Implantar > Nova implantação.
+11. Escolha o tipo: App da Web.
+12. Descrição: Webhook formulário site Osasco Express.
+13. Executar como: Eu.
+14. Quem pode acessar: Qualquer pessoa.
+15. Clique em Implantar.
+16. Copie a URL do App da Web. Ela precisa terminar com /exec.
+
+IMPORTANTE
+Não use a URL que termina com /dev.
+Use somente a URL que termina com /exec.
+
+NO SITE
+
+17. Abra o arquivo index.html.
+18. Procure por:
+const SHEET_WEBHOOK_URL='COLE_A_URL_DO_APPS_SCRIPT_AQUI';
+
+19. Troque pelo seu link /exec. Exemplo:
+const SHEET_WEBHOOK_URL='https://script.google.com/macros/s/AKfycbxSEU_CODIGO/exec';
+
+20. Salve o index.html e suba o site novamente.
+
+TESTE FINAL
+
+21. Abra o site em aba anônima.
+22. Preencha o formulário.
+23. Clique em Receber análise pelo WhatsApp.
+24. O WhatsApp deve abrir com a mensagem pronta.
+25. A planilha deve receber uma nova linha na aba Leads Site.
+
+SE NÃO GRAVAR
+
+- Confira se a URL no index.html termina com /exec.
+- Confira se o Apps Script está publicado para Qualquer pessoa.
+- Confira se você subiu o index.html atualizado.
+- Abra o site, pressione Ctrl + U e procure por script.google.com.
+- Se não aparecer, o site publicado ainda está com o index antigo.
+- Se você alterar o Apps Script, vá em Implantar > Gerenciar implantações > Editar > Nova versão > Implantar.
